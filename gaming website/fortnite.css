@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    scroll-snap-align: start;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    width: 100%;
+    height: 80px;
+    padding: 30px 10%;
+    position: sticky;
+    top: 0;
+}
+nav .download a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+}
+nav .download a:hover{
+    background: plum;
+}
+nav ul{
+    display: none;
+    flex-direction: column;
+    
+
+}
+nav ul.show{
+    display: flex;
+}
+nav ul li{
+    background: transparent;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: aqua;
+}
+
+.hamburger{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    cursor:  pointer;
+}
+.logo{
+    width: 120px;
+    height: 70px;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+.container{
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.one{
+    background-color: rgb(32, 35, 48);
+    background-position: center;
+    background-size: cover;
+}
+.one-p{
+    position:relative;
+    margin-top: -15%;
+    margin-left: -7%;
+    margin-right: 2%;
+}
+.one-p p{
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.2px;
+    line-height: 30px
+}
+.one-p p span{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 700;
+    color: cadetblue;
+}
+.one .section-1 h1{
+    font-size: 50px;
+    font-style: italic;
+}
+.one .section-1 a button{
+    background-color: transparent;
+    border: 3px solid rgba(58, 145, 104, 0.5);
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(58, 145, 104, 0.5);
+    margin-left: 80px;
+    margin-bottom: 10px;
+    padding: 9px 25px;
+}
+.two{
+    background-color: rgb(243, 10, 243);
+    background-position: center;
+    background-size: cover;
+}
+.two-p{
+    position: relative;
+    margin-left: -80%;
+    margin-top: 20%;
+    
+}
+.two-p p{
+    font-weight: 400;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.2px;
+    line-height: 30px
+}
+.two-p span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: dimgray;
+    
+}
+.two .section-2 img{
+    height: 490px;
+    margin-left: 10%;
+    margin-top: -50%;
+}
+.two .section-2 h1{
+    margin-left: 10%;
+    font-size: 50px;
+    font-style: italic;
+}
+.two .section-2 a button{
+    background-color: transparent;
+    border: 3px solid rgba(255, 251, 0, 0.815);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgba(249, 253, 0, 0.849);
+    margin-left: 80px;
+    margin-bottom: 10px;
+    padding: 9px 25px;
+}
+.three{
+    background-color: rgb(0, 252, 218);
+    background-position: center;
+    background-size: cover;
+}
+.three-p{
+    position: relative;
+    margin-top: -15%;
+    margin-left: 0;
+    margin-right: 2%;
+}
+.three-p p{
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 1.2px;
+    line-height: 30px
+}
+.three-p span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: blueviolet;
+}
+.three .section-3 h1{
+    font-size: 50px;
+    font-style: italic;
+}
+.three .section-3 a button{
+    background-color: transparent;
+    border: 3px solid rgb(7, 7, 7);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgba(7, 7, 7, 0.884);
+    margin-left: 80px;
+    margin-bottom: 10px;
+    padding: 9px 25px;
+}

@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 125vh;
+    background-image: url(./imagess/background\ image.webp);
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+   width: 130px;
+   height: 130px;
+   border-radius: 50%;
+   margin-left: 20px;
+   opacity: 0.8;
+   cursor: pointer;
+}
+h3{
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: -80px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    padding: 30px 10%;
+}
+ul{
+    
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+ul li a{
+    text-decoration: none;
+    transition: all .3s ease 0s;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+ul li a:hover{
+    color: red;
+}
+button{
+    background-color: rgba(32, 201, 150, 1);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease 0s;
+    padding: 9px 25px;
+}
+button:hover{
+    background-color: rgba(32, 201, 150, 0.8);
+}
+a button{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+    margin-left: 10px;
+    padding: 10px;
+}
+.text h2{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.text p{
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px
+}
+.text .explore{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.text .explore a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+}
+.featured{
+    width: 350px;
+    height: 600px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    border-radius: 10px;
+    padding: 30px;
+    justify-content: center;
+}
+.featured h2{
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 85px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.featured .icon{
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+    position: relative;
+}
+.featured h3{
+    margin-left: 80px;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.featured a button{
+    background-color: transparent;
+    border: 3px solid rgba(58, 145, 104, 0.5);
+    color: rgba(58, 145, 104, 0.5);
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+.video{
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    position: absolute;
+    border-radius: 10px;
+    padding: 30px;
+    justify-content: center;
+    margin-left: 30px;
+}
+video{
+    width: 280px;
+    height: 250px;
+    margin-top: -55px;
+    margin-left: -21px;
+    position: relative;
+    border-radius: 10px;
+    opacity: .8;
+}
+h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 30px;
+}
+span{
+    font-size: 29px;
+
+}
+h5{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    bottom: -5%;
+    position: absolute;
+}
+.jns{
+    padding: 10px 10%;
+}
+.jns a button{
+    bottom: -14%;
+    position: absolute;
+}
+.social-icons{
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+}
+.social-icons img{
+    width: 25px;
+    display: block;
+    margin: 25px 5px;
+}
+
+
